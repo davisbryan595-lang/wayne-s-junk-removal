@@ -1,0 +1,16 @@
+{
+  "name": "Wayne's Junk & Snow Removal Ltd",
+  "short_name": "Wayne's Services",
+  "description": "Professional snow removal, junk removal, and furniture delivery services",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#00C3C9",
+  "icons": [
+    {
+      "src": "/wayneslogo.jpeg",
+      "sizes": "400x400",
+      "type": "image/jpeg"
+    }
+  ]
+}

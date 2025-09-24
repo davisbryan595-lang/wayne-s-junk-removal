@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://waynes-junk-snow-removal.vercel.app/sitemap.xml
