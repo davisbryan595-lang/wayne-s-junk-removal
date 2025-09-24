@@ -1,19 +1,19 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   eslint: {
-    ignoreDuringBuilds: true, // prevents ESLint errors from blocking Vercel builds
+    ignoreDuringBuilds: true,
   },
   typescript: {
-    ignoreBuildErrors: true, // prevents TS errors from blocking builds
+    ignoreBuildErrors: true,
   },
   images: {
     domains: [
-      "images.unsplash.com", // example: allow Unsplash
-      "placehold.co",        // example: allow placeholder service
-      "res.cloudinary.com"   // example: if you use Cloudinary
+      "images.unsplash.com", 
+      "placehold.co",
+      "res.cloudinary.com"
     ],
     formats: ["image/webp", "image/avif"],
-    unoptimized: true, // disables next/image optimization (Vercel CDN handles it fine)
+    unoptimized: true,
   },
   reactStrictMode: true,
 }
